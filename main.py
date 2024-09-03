@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
 
 from chains import Chain
-from vectorstrore_populate import Portfolio
+from vectorstore_populate import Portfolio
 from utils import clean_text
 
 def create_streamlit_app(llm, portfolio, clean_text):
